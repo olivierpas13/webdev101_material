@@ -1,0 +1,42 @@
+*{
+    background-color: #ccc;
+}
+
+ul li{
+    font-size: 2em;
+}
+
+ul li:first-child{
+    color: blue;
+    font-weight: bold;
+}
+ul li:nth-child(3){
+    color: #f00;
+}
+ul li:last-child{
+    color: #0f0;
+}
+
+.enlace{
+    font-size: 2em;
+    color: darkgreen;
+}
+.enlace:link{
+    color: red;
+}
+.enlace:visited{
+    color: blue;
+}
+.enlace:hover{
+    color: black;
+}
+.enlace:active{
+    color: darkorchid;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input[type="text"]{
+    padding: 3em;
+}
+input[type="text"]:focus{
+    border: 2em dashed greenyellow;
+}

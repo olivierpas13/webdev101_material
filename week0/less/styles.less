@@ -1,0 +1,53 @@
+@bgcolor: lightblue;
+@b: body;
+@font: Arial;
+
+@{b}{
+    background-color: @bgcolor;
+    font-size: 30px;
+}
+
+h1{
+    font-family: @font;
+}
+
+.shadows(@size){
+    box-shadow: 0px 0px @size black;
+    text-shadow: 0px 0px @size black;
+}
+
+.list{
+    .shadows(5px);
+    ul li{
+        color: aqua;
+    }
+}
+
+// operators
+
+h1{
+    font-size: 30px + 10px;
+}
+
+// conditional mixins
+
+.blackText (@value) when (@value=true){
+    color: black;
+}
+h1{
+    color: blue;
+    .blackText(true)
+}
+
+// bucles
+
+
+.loop(@cont) when (@cont > 0){
+    .loop((@cont - 1 ));
+    height: ((900px /@cont));
+}
+
+.list{
+    height: 800px;
+    .loop(5)
+}

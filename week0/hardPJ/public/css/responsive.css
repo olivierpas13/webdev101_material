@@ -1,0 +1,271 @@
+@media (max-width: 1270px) {
+  .wrap {
+    width: 90%;
+    margin: 0px auto;
+  }
+  #banner h1 {
+    font-size: 2.1em;
+    text-align: center;
+    margin: 33px auto;
+  }
+  .card {
+    width: 17%;
+    margin: 1.5%;
+  }
+
+  .card p {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  #articles {
+    width: 63%;
+  }
+
+  #articles article {
+    width: 97%;
+  }
+  footer .wrap > div {
+    width: 24%;
+  }
+
+  footer #browsers img {
+    width: 13%;
+  }
+
+  footer h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .card .category {
+    font-size: 17px;
+  }
+
+  .card .description {
+    font-size: 14px;
+  }
+
+  #articles {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1100px) {
+  #articles {
+    width: 58%;
+  }
+
+  footer h5 {
+    font-size: 22px;
+  }
+
+  footer .wrap > div {
+    width: 22%;
+  }
+}
+
+@media (max-width: 950px) {
+  #articles {
+    width: 58%;
+  }
+
+  #sidebar {
+    width: 35%;
+  }
+}
+
+@media (max-width: 950px) {
+  #login input[type="reset"] {
+    display: none;
+  }
+}
+
+@media (max-width: 870px) {
+  footer .wrap > div {
+    width: 20%;
+  }
+
+  footer h5 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 857px) {
+  footer .wrap > div {
+    width: 25%;
+    margin-left: 10px;
+  }
+
+  footer ul li a {
+    height: 35px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  header {
+    width: 100%;
+    height: 135px;
+  }
+
+  .dashboard {
+    clear: both;
+    float: none;
+    width: 525px;
+    margin: 0px auto;
+  }
+
+  .logo {
+    float: none;
+    width: 200px;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .card .description {
+    display: none;
+  }
+
+  footer .wrap > div {
+    width: 22%;
+    margin-left: 10px;
+  }
+  .card {
+    height: auto;
+  }
+
+  #sidebar input[type="text"] {
+    width: 82%;
+  }
+}
+
+@media (max-width: 740px) {
+  #sidebar {
+    width: 100%;
+    float: none;
+    min-height: 0px;
+  }
+
+  .card {
+    height: auto;
+    width: 90%;
+    margin: 16px auto;
+    margin-left: 30px;
+  }
+
+  #login input[type="email"],
+  #login input[type="password"] {
+    width: 91%;
+  }
+
+  #articles {
+    margin: 0px auto;
+    float: none;
+    width: 100%;
+  }
+
+  #articles article {
+    margin-left: 7px;
+  }
+  #social {
+    max-width: 40%;
+  }
+
+  #sidebar input[type="text"] {
+    width: 91%;
+  }
+
+  #search,
+  #login,
+  #sponsors {
+    width: 90%;
+    margin-left: 15px;
+  }
+  footer {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  footer img {
+    width: auto;
+  }
+
+  footer .wrap > div {
+    width: 100%;
+    margin: 0px auto;
+    margin: 10px 0px;
+  }
+
+  footer .wrap > nav {
+    width: 91%;
+  }
+  footer h5 {
+    font-size: 20px;
+  }
+
+  aside h3 {
+    width: 92%;
+  }
+}
+
+@media (max-width: 550px) {
+  #banner {
+    width: 100%;
+  }
+  #banner h1 {
+    font-size: 25px;
+  }
+
+  .dashboard {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .dashboard li {
+    width: 100%;
+    text-align: center;
+  }
+  .dashboard ul {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .dashboard ul li {
+    margin: 0px auto;
+  }
+
+  header {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  #sidebar {
+    margin-left: 0px;
+  }
+
+  #banner {
+    margin-left: -7px;
+  }
+  #cards {
+    margin-left: -15px;
+  }
+  #sidebar input[type="text"] {
+    width: 89%;
+  }
+  /* #login #user,
+  #login #password {
+    margin: 6px 0px 0px 6px;
+  }
+  #login #password {
+    margin-bottom: -30px;
+  } */
+}

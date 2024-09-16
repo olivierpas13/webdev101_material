@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor-general{
+    width: 1200px;
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(30, 50, 71);
+    text-align: center;
+    line-height: 80px;
+    color: whitesmoke;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.menu{
+    background-color: #aaaa;
+    /* width: 1000px; */
+}
+
+.menu ul li{
+    display: block;
+    float: left;
+    border: 1px solid #dddd;
+    cursor: pointer;
+    /* background-color: azure; */
+}
+
+.menu ul li:hover{
+    background-color: rgb(30, 50, 71);
+}
+
+.menu ul li a{
+    padding: 10px;
+    display: block;
+    color: rgb(31, 30, 30);
+}
+
+.menu ul li:hover a{
+    color: white;
+}
+
+.contenido{
+    float: left;
+    width: 70%;
+}
+
+#lateral{
+    float: left;
+    width: 29%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #eee;
+    min-height: 50em;
+    max-height: 50em;
+    overflow-y: scroll;
+}
+
+.contenido h1{
+    background-color: rgb(30, 50, 71);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 15px rgb(255, 255, 255);
+}
+
+.contenido .caja{
+    background-color: rgb(56, 91, 128);
+    width: 40%;
+    height: 250px;
+    border: 5px solid black;
+    float: left;
+    margin: 2em;
+    text-align: center;
+    line-height: 240px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 0px 70px 0px 70px;
+    text-transform: uppercase;
+}
+
+.sombreada-dentro{
+    box-shadow: 0px 0px 25px black inset !important;
+}
+
+#footer{
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(30, 50, 71);
+}
+
+.free-box{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    background-color: lightblue;
+    width: 7em;
+    height: 5em;
+    z-index: 1;
+}
+
+.free2{
+    background-color: black;
+    color: whitesmoke;
+    top: 85%;
+    left: 85%;
+    z-index: 0;
+}
+
+.static-element{
+    position: fixed;
+    top: 5em;
+    bottom: 5em;
+    background-color: rgb(30, 50, 71);
+    color: whitesmoke;
+    max-width: 10em;
+}

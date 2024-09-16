@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="icons/hamburger-menu.svg"
+          alt="hamburger-menu"
+        />
+        <img
+          class="youtube-logo"
+          src="icons/youtube-logo.svg"
+          alt="hamburger-menu"
+        />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search-icon" />
+          <div class="tool-tip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tool-tip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tool-tip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" />
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="user-picture" src="channelPictures/me.jpg" />
+      </div>
+    </header>
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="Home icon" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="Explore icon" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="Subscriptions icon" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="Originals icon" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="Youtube music" />
+        <div>Youtube music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="Library icon" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="videoPreview">
+          <div class="thumbnailRow">
+            <img
+              class="thumbnail"
+              src="https://img.youtube.com/vi/yucTn222yhU/hqdefault.jpg"
+              alt="youtubeMiniature"
+            />
+            <div class="video-time">2:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="videoChannel">
+              <img
+                class="profilePicture"
+                src="channelPictures/channels4_profile.jpg"
+                alt="Profile picture"
+              />
+            </div>
+            <div class="videoInfo">
+              <p class="videoTitle">Drake - Passionfruit (Sub Español)</p>
+              <p class="videoAuthor">Goste</p>
+              <p class="videoStats">360k views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="videoPreview">
+          <div class="thumbnailRow">
+            <img
+              class="thumbnail"
+              src="thumbnails/jiminterview.jpg"
+              alt="youtubeMiniature"
+            />
+            <div class="video-time">10:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="videoChannel">
+              <img
+                class="profilePicture"
+                src="channelPictures/unnamed.jpg"
+                alt="Profile picture"
+              />
+            </div>
+            <div class="videoInfo">
+              <p class="videoTitle">
+                John Krasinski interviews Steve Carell on Some Good News [FULL
+                INTERVIEW]
+              </p>
+              <p class="videoAuthor">SomeGoodNews</p>
+              <p class="videoStats">4.7m views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="videoPreview">
+          <div class="thumbnailRow">
+            <img
+              class="thumbnail"
+              src="thumbnails/hqdefault.jpg"
+              alt="youtubeMiniature"
+            />
+            <div class="video-time">52:35</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="videoChannel">
+              <img
+                class="profilePicture"
+                src="channelPictures/clem.jpg"
+                alt="Profile picture"
+              />
+            </div>
+            <div class="videoInfo">
+              <p class="videoTitle">
+                Google JavaScript Interview With A Frontend Engineer
+              </p>
+              <p class="videoAuthor">Clément Mihailescu</p>
+              <p class="videoStats">102k views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="videoPreview">
+          <div class="thumbnailRow">
+            <img
+              class="thumbnail"
+              src="thumbnails/primervideo.jpg"
+              alt="youtubeMiniature"
+            />
+            <div class="video-time">22:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="videoChannel">
+              <img
+                class="profilePicture"
+                src="channelPictures/primerprofile.jpg"
+                alt="Profile picture"
+              />
+            </div>
+            <div class="videoInfo">
+              <p class="videoTitle">How To Catch A Cheater With Math</p>
+              <p class="videoAuthor">Primer</p>
+              <p class="videoStats">1.2m views &#183; 11 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="videoPreview">
+          <div class="thumbnailRow">
+            <img
+              class="thumbnail"
+              src="thumbnails/siria.jpg"
+              alt="youtubeMiniature"
+            />
+            <div class="video-time">38:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="videoChannel">
+              <img
+                class="profilePicture"
+                src="channelPictures/lc.jpg"
+                alt="Profile picture"
+              />
+            </div>
+            <div class="videoInfo">
+              <p class="videoTitle">
+                SIRIA EN LA ACTUALIDAD ¿Por qué llevan 10 años en CONFLICTO?
+              </p>
+              <p class="videoAuthor">Lethal Crysis</p>
+              <p class="videoStats">958k views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="videoPreview">
+          <div class="thumbnailRow">
+            <img
+              class="thumbnail"
+              src="thumbnails/cpu.jpg"
+              alt="youtubeMiniature"
+            />
+            <div class="video-time">12:44</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="videoChannel">
+              <img
+                class="profilePicture"
+                src="channelPictures/fireship.jpg"
+                alt="Profile picture"
+              />
+            </div>
+            <div class="videoInfo">
+              <p class="videoTitle">
+                How a CPU Works in 100 Seconds // Apple Silicon M1 vs Intel i9
+              </p>
+              <p class="videoAuthor">Fireship</p>
+              <p class="videoStats">1.4m views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+<!--:)-->
